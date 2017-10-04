@@ -36,9 +36,9 @@ function setMessage(message){
 }
 
 
-function validateInput(input){
+function validateInput(answer){
 
-    if(input.length == 4){
+    if(answer.value.length == 4){
           return true;
     }
     else{
