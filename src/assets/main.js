@@ -1,6 +1,6 @@
 let answer = document.getElementById('answer');
 let attempt = document.getElementById('attempt');
-let message = document.getElementById('message');
+let messageLabel = document.getElementById('message');
 
 
 function guess() {
@@ -24,6 +24,6 @@ function setHiddenFields () {
 
 function setMessage(message){
 
-    message.innerHTML = message;
+    messageLabel.innerHTML = message;
 
 }
