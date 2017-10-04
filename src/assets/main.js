@@ -27,3 +27,17 @@ function setMessage(message){
     messageLabel.innerHTML = message;
 
 }
+
+
+function validateInput(answer){
+
+    if(answer.value.length == 4){
+          return true;
+    }
+    else{
+
+      setMessage("Guesses must be exactly 4 characters long.");
+      return false;
+    }
+
+}
