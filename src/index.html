@@ -18,14 +18,14 @@
           </p>
         </div>
 
-        <div id="guessing-div" class="row form-inline">
+        <div id="guessing-div" class="row form-inline" style="display:none">
           <input type="hidden" id="attempt"/>
           <input type="hidden" id="answer"/>
           <input id="user-guess" class="form-control" type="number" />
           <button class="btn btn-primary" onclick="guess()">Submit Guess</button>
         </div>
 
-        <div id="replay-div" class="row" style="display:none">
+        <div id="replay-div" class="row" style="display:block">
           <button class="btn btn-primary" onclick="window.location.reload()">Play again?</button>
         </div>
 
