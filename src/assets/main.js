@@ -70,5 +70,10 @@ function getResults(input){
     }
     html += '</div></div>'
     document.getElementById('results').innerHTML += html;
-    else false;
+
+    if(input == answer.value)
+    {
+      return true;
+    }
+    return false;
   }
