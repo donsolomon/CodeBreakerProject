@@ -76,7 +76,7 @@ function getResults(input){
     {
       html += '<span class="glyphicon glyphicon-ok"></span>';
     }
-    else if(answer.value.indexOf(input.charAt(i) > -1))
+    else if(answer.value.indexOf(input.charAt(i)) > -1)
     {
       html += '<span class="glyphicon glyphicon-transfer"></span>';
     }
