@@ -6,4 +6,9 @@ function guess() {
     //add functionality to guess function here
 }
 
+function setHiddenfields(answer) {
+    answer = Math.random();
+    math.floor(answer);
+}
+
 //implement new functions here
