@@ -105,7 +105,7 @@ function showAnswer(success)
     {
       code.className += ' failure';
     }
-    code.innerHTML = anser.value;
+    code.innerHTML = answer.value;
   }
 
 function  showReplay()
