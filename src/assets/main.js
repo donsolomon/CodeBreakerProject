@@ -110,7 +110,7 @@ function showAnswer(success)
 
 function  showReplay()
 {
-document.getElementById('guessing-div').style = "none";
-document.getElementById('replay-div').style = "block";
+document.getElementById('guessing-div').style.display = "none";
+document.getElementById('replay-div').style.display = "block";
 
 }
