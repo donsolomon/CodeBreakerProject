@@ -70,4 +70,5 @@ function getResults(input){
     }
     html += '</div></div>'
     document.getElementById('results').innerHTML += html;
+    else false;
   }
