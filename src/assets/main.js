@@ -29,9 +29,9 @@ function setMessage(message){
 }
 
 
-function validateInput(answer){
+function validateInput(input){
 
-    if(answer.value.length == 4){
+    if(input.length == 4){
           return true;
     }
     else{
